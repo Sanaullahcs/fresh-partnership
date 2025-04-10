@@ -1,0 +1,767 @@
+body {
+  font-family: "Unica One";
+}
+.navbar {
+  background-color: white !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+.toolbar {
+  display: flex;
+  align-items: center;
+  background-color: white !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  min-height: 80px !important;
+  width: 90% !important;
+  margin: 0 auto;
+}
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  .full-background-content .card-title-one {
+    text-align: left !important;
+    font-size: 30px !important;
+  }
+  .fresh-property-container {
+    padding: 0px !important;
+  
+  }
+  .section-title-fresh {
+    text-align: center;
+    margin-bottom: 40px !important;
+    color: rgba(52, 147, 76, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px !important;
+    text-align: left;
+    font-size: 35px !important;
+    font-family: "Unica One", cursive !important;
+  }
+  .text-section h1.text-section-heading {
+    font-size: 30px !important;
+  }
+  
+  
+}
+
+.logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo svg {
+  width: 120px;
+  height: 120px;
+  margin-top: 75px;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo.scrolled svg {
+  margin-top: 10px;
+  width: 70px;
+  height: 70px;
+}
+
+.nav-links {
+  flex: 7;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  white-space: nowrap;
+}
+
+.nav-item {
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: color 0.1s ease-in-out, border-bottom 0.3s ease-in-out;
+  text-transform: capitalize !important;
+  font-family: "Unica One", cursive;
+}
+
+.nav-item:hover {
+  color: rgba(52, 147, 76, 1);
+}
+
+.partner-button {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  white-space: nowrap;
+  border: 1px solid rgba(153, 153, 153, 1) !important;
+  color: rgba(52, 147, 76, 1) !important;
+  font-weight: bold;
+  padding: 10px 20px !important;
+  border-radius: 5px;
+  box-shadow: none;
+  transition: background-color 0.3s;
+  font-family: "Unica One", cursive !important;
+  font-size: 15px !important;
+}
+.partner-button-two {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  white-space: nowrap;
+  border: 1px solid rgba(153, 153, 153, 1) !important;
+  color: rgba(52, 147, 76, 1) !important;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  box-shadow: none;
+  transition: background-color 0.3s;
+  font-family: "Unica One", cursive !important;
+  font-size: 13px !important;
+}
+@media (max-width: 1100px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+}
+
+.drawer .drawer-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.drawer .nav-item {
+  text-decoration: none;
+  color: #333;
+  padding: 1rem;
+
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.text-section {
+  background-color: #2f8c44;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: left;
+}
+
+.text-section-heading {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+.text-section-two h1 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  
+  
+}
+.text-section-two p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  /* font-family: 'Montserrat', sans-serif !important; */
+  font-family: "Poppins", sans-serif !important;
+}
+.text-section p {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif !important;
+  line-height: 35px;
+  font-weight: 400;
+}
+
+.cta-button {
+  background-color: white !important;
+  color: #2f8c44 !important;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Unica One", cursive !important;
+  font-size: 20px !important;
+}
+
+
+.full-image-one {
+  width: 100%;
+  height: auto; 
+  object-fit: contain; 
+  
+}
+.full-image {
+  width: 70%;
+  height: 70%; 
+  border-radius: 10px !important;
+  
+}
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.gallery-section {
+  width: 80% !important;
+  margin: 40px auto !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.gallery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.gallery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.gallery-section {
+  width: 80% !important;
+  margin-top: 40px !important;
+}
+@media screen and (min-width: 200px) and (max-width: 600px) {
+  .gallery-section {
+    width: 80% !important;
+    margin-top: 10px !important;
+  }
+  
+}
+.gallery-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto !important;
+  border-radius: 10px;
+}
+.gallery-image-two {
+  width: 100%;
+  height: auto !important;
+  border-radius: 10px;
+}
+.drawer .partner-button-two {
+  font-size: 10px !important;
+
+  margin-top: 2rem;
+}
+
+@media (max-width: 1100px) {
+  .menu-button {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}
+
+
+
+
+.section-title-fresh {
+  text-align: center;
+  margin-bottom: 40px !important;
+  color: rgba(52, 147, 76, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: 35px !important;
+  font-family: "Unica One", cursive !important;
+}
+
+
+
+.card {
+  width: 100%;
+  height: 520px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.6s;
+  background-color: white;
+  border: none;
+  box-shadow: none;
+}
+
+.fixed-card-height {
+  height: 450px;
+}
+
+.card-image {
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+}
+
+.card-content {
+  background-color: rgba(52, 147, 76, 1);
+  color: white;
+  text-transform: capitalize !important;
+  opacity: 0.9 !important;
+
+  width: 100%;
+}
+
+.back-card {
+  background-color: rgba(126, 203, 122, 1) !important;
+  opacity: 0.9 !important;
+}
+
+.back-card-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.flip-card-button {
+  background-color: white !important;
+  color: #2f8c44 !important;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Unica One", cursive !important;
+}
+
+.card-subtitle {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  margin-top: 5px;
+  text-transform: capitalize !important;
+  /* font-family: 'Montserrat', sans-serif !important; */
+  font-family: "Poppins", sans-serif !important;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-bottom: 30px !important;
+}
+
+.card-title {
+  font-size: 28px !important;
+  font-weight: 400;
+  margin-top: 5px;
+  text-transform: capitalize !important;
+  font-family: "Unica One", cursive !important;
+
+  font-weight: 400 !important;
+}
+.card-text {
+  font-size: 17px !important;
+  font-weight: 400;
+  margin-top: 5px;
+  text-transform: capitalize !important;
+  font-family: "Unica One", cursive !important;
+  color: white !important;
+  font-weight: 400 !important;
+}
+
+.left-align {
+  text-align: left;
+}
+.fresh-property-container {
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px !important;
+}
+.subheading-property {
+  /* font-family: 'Montserrat', sans-serif !important; */
+  font-family: "Poppins", sans-serif  !important;
+
+  font-weight: 400 !important;
+  text-transform: capitalize !important;
+  font-size: 20px !important;
+}
+
+.income-streams {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px !important;
+
+}
+
+.income-stream-item img {
+  width: 15px !important  ;
+  height: 15px !important;
+  margin-right: 10px;
+
+}
+.income-stream-headings {
+  font-size: 48px !important;
+  font-weight: 400 !important;
+  color: #ffffff;
+  font-family: "Unica One", cursive !important;
+  /* font-family: "Montserrat", serif; */
+  text-transform: capitalize !important;
+  margin-right: 10px !important;
+}
+.income-stream-investment {
+  font-size: 30px !important;
+  font-weight: 400 !important;
+  color: #ffffff;
+  font-family: "Unica One", cursive !important;
+  /* font-family: "Montserrat", serif; */
+  text-transform: capitalize !important;
+  margin-right: 10px !important;
+}
+.income-stream-investment-one {
+  font-size: 30px !important;
+  font-weight: 400 !important;
+  color: #ffffff;
+  font-family: "Unica One", cursive !important;
+  /* font-family: "Montserrat", serif; */
+  text-transform: uppercase !important;
+  margin-right: 10px !important;
+}
+.income-stream-text {
+  font-size: 25px !important;
+  font-weight: 500 !important;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: capitalize !important;
+  margin-right: 10px !important;
+}
+
+.text-section {
+  background-color: #2f8c44;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: left;
+}
+
+.text-section-two {
+  background-color: #2f8c44;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: left;
+}
+.income-streams {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px !important;
+
+}
+.income-stream-item {
+  display: flex;
+  align-items: center !important;
+  margin-top: 20px;
+
+}
+
+.income-stream-item img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.income-stream-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.income-stream-description {
+  font-size: 14px;
+  color: #ffffff;
+}
+.margin-top-heading {
+  margin-top: 7px !important;
+}
+
+#fresh-income-container {
+  scroll-behavior: smooth;
+  padding-top: 20px;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.closing-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  
+}
+
+.income-stream-text-two {
+  /* font-family: "Montserrat", serif;   */
+  font-family: "Poppins", sans-serif;
+
+  font-weight: normal;
+  font-size: 16px;
+  color: #222;
+}
+
+.success-item {
+  text-transform: capitalize !important;
+  /* font-family: "Montserrat", serif !important;  */
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px !important;
+}
+
+
+.apply-now-section {
+  margin-top: 20px;
+  display: flex;
+}
+
+.apply-now-button {
+  text-decoration: underline;
+  color: white;
+  margin-top: 35px;
+  padding-left: 10px !important;
+  cursor: pointer !important;
+}
+
+.apply-icon {
+  width: 10px;
+  height: 10px;
+}
+.apply-icon-two {
+  width: 25px;
+  height: 25px;
+}
+.contact-row {
+ margin-top: 30px;
+}
+.one-line {
+  display: flex;
+}
+.contact-image {
+  width: 1000px;
+}
+@media screen and (min-width: 900px) and (max-width: 1080px) {
+  .contact-image {
+    width: 800px;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact-image {
+    display: none !important;
+  }
+  .text-section p {
+    font-size: 17px !important;
+    margin-bottom: 30px;
+  line-height: 18px;
+  }
+  
+}
+.contact-description {
+  /* font-family: 'Montserrat', sans-serif !important; */
+  font-family: "Poppins", sans-serif;
+
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  color: #555;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.margin-top {
+  margin-top: 30px !important;
+}
+
+.full-background-card {
+  background-color: #7ecb7a !important; /* Green background */
+  color: white !important;
+
+  text-align: left !important;
+}
+
+.full-background-content {
+  padding: 40px;
+  text-align: left !important;
+}
+
+.full-background-content .card-title-one {
+  text-align: left !important;
+  font-size: 40px;
+  font-family: "Unica One", cursive !important;
+
+  line-height: 44px !important;
+}
+
+.full-background-content .card-button {
+  background-color: white !important;
+  color: #2f8c44 !important;
+  margin-top: 20px;
+  font-size: 13px !important;
+}
+
+
+
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1450px) {
+  .full-background-content .card-title-one {
+    text-align: left !important;
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .fresh-property-container {
+    padding: 0px !important;
+  
+  }
+  .full-background-content .card-button{
+    font-size: 10px !important;
+  }
+  .section-title-fresh {
+    text-align: center;
+    margin-bottom: 40px !important;
+    color: rgba(52, 147, 76, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px !important;
+    text-align: left;
+    font-size: 35px !important;
+    font-family: "Unica One", cursive !important;
+  }
+  .text-section h1.text-section-heading {
+    font-size: 30px !important;
+  }
+  .text-section p {
+    font-size: 17px;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif !important;
+  line-height: 18px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .income-stream-headings {
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    color: #ffffff;
+    font-family: "Unica One", cursive !important;
+    /* font-family: "Montserrat", serif; */
+    text-transform: capitalize !important;
+    margin-right: 10px !important;
+  }
+  .income-stream-text {
+    font-size: 25px !important;
+    font-weight: 500 !important;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif !important;
+    text-transform: capitalize !important;
+    margin-right: 10px !important;
+  }
+
+  .text-section {
+    background-color: #2f8c44;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px !important;
+    text-align: left;
+  }
+  .text-section-two {
+    background-color: #2f8c44;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    text-align: left;
+  }
+}
+
+
+.custom-button {
+  display: inline-block;
+  background-color: white; /* Match button background */
+  color: #2d7d46; /* Match text color */
+  padding: 12px 24px; /* Adjust padding */
+  border-radius: 8px; /* Smooth rounded corners */
+  font-size: 16px; /* Adjust font size */
+  font-weight: 500 !important;
+  text-align: center;
+  text-decoration: none; /* Remove underline */
+  transition: all 0.3s ease-in-out;
+  font-family: "Poppins", sans-serif !important;
+text-transform: capitalize !important;
+  border: none;
+  cursor: pointer;
+  width: auto; /* Adjust width based on content */
+  margin-top: 25px; /* Space from the text above */
+}
+
+/* Ensure button moves to the next line on mobile screens */
+@media (max-width: 768px) {
+  .apply-now-section {
+    text-align: center; /* Center align text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .custom-button {
+    display: block; /* Force button to move to the next line */
+    width: 100%; /* Make it full width for better mobile UX */
+    max-width: 200px; /* Prevent it from being too wide */
+    margin-top: 0px; /* Space from the text above */
+
+  }
+}
+
+.full-image-border{
+  border-radius: 10px !important;
+}

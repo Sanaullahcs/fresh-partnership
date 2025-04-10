@@ -1,0 +1,129 @@
+/* Centering the Carousel */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;  
+    max-width: 1300px;  
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Title Styling */
+.section-title-fresh-one {
+    text-align: center;
+    color: rgba(52, 147, 76, 1) !important;
+    align-items: center;
+    justify-content: center;
+    padding: 0px !important;
+    font-size: 35px !important;
+    font-family: "Unica One", cursive !important;
+    text-transform: uppercase !important;
+    margin-top: 30px !important;
+
+}
+
+/* Subtitle Styling */
+.faq-subtitle-one {
+    font-weight: 400;
+    line-height: 1.1;
+    font-family: "Poppins", sans-serif !important;
+    color: rgba(51, 51, 51, 1) !important;
+    
+}
+
+/* Ensure the slider takes full width */
+.slick-slider {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* Customizing the dots */
+.slick-dots {
+    position: relative;
+}
+
+.slick-dots li {
+    margin: 0 5px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: green !important;
+    opacity: 0.75;
+}
+
+.slick-dots li.slick-active button:before {
+    color: green !important;
+    opacity: 1;
+}
+
+/* Carousel Card */
+.carousel-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .carousel-container {
+        width: 95%;
+    }
+
+    .carousel-card {
+        width: 95%;
+    }
+
+    .carousel-image {
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-container {
+        width: 100%;
+    }
+
+    .carousel-card {
+        width: 100%;
+    }
+
+    .carousel-image {
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-container {
+        width: 100%;
+    }
+
+    .carousel-card {
+        width: 100%;
+    }
+
+    .carousel-image {
+        max-height: 250px;
+    }
+
+    .section-title-fresh-one {
+        font-size: 22px;
+    }
+
+    .faq-subtitle-one {
+        font-size: 16px;
+    }
+}
