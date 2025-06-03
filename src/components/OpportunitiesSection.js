@@ -16,8 +16,8 @@ const FreshIncomeStreams = () => {
         <Grid item xs={12} md={6} className="text-section">
           <div className="content-wrapper">
             <h1 className="income-stream-headings" >STEADY INCOME STREAMS</h1>
-            <div className="subheading-property">
-              The short-term rental market is growing rapidly, and demand for vacation homes in Spain continues to rise.
+            <div className="subheading-property" style={{ lineHeight: "30px" }}>
+            The short-term rental market is growing rapidly, and demand for vacation homes in Spain continues to rise.
               As a FRESH Partner, you’ll benefit from multiple income streams, including:
             </div>
 

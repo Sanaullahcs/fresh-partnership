@@ -411,10 +411,11 @@ body {
 .subheading-property {
   /* font-family: 'Montserrat', sans-serif !important; */
   font-family: "Poppins", sans-serif  !important;
-
   font-weight: 400 !important;
-  text-transform: capitalize !important;
   font-size: 20px !important;
+}
+.text-lower{
+  text-transform: capitalize !important;
 }
 
 .income-streams {
@@ -547,7 +548,7 @@ body {
 }
 
 .success-item {
-  text-transform: capitalize !important;
+  /* text-transform: capitalize !important; */
   /* font-family: "Montserrat", serif !important;  */
   font-family: "Poppins", sans-serif;
   margin-top: 20px !important;

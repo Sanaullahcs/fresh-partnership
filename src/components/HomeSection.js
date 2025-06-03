@@ -18,8 +18,7 @@ const FreshPropertySection = () => {
           <div className="content-wrapper">
             <h1 className="text-section-heading">JOIN FRESH PROPERTY MANAGEMENT AS A PARTNER: YOUR PATH TO GROWTH AND SUCCESS</h1>
             <p>
-              CAPITALIZE ON SPAIN’S BOOMING SHORT-TERM RENTAL MARKET WITH A PROVEN BUSINESS MODEL, EXPERT TRAINING,
-              AND FULL OPERATIONAL SUPPORT.
+            Capitalize on Spain’s booming short-term rental market with a proven business model, expert training, and full operational support.
             </p>
             <Link to="contact" smooth={true} duration={500} spy={true} activeClass="active">
   <Button variant="flat" className="cta-button">GET STARTED TODAY</Button>
